@@ -1,16 +1,11 @@
-import deliveries from './../data/availableDeliveries.json';
-
-const availableDeliveries = deliveries.map(transformDelivery);
-
 export default {
-    getPickupLocations: function() {
-        return availableDeliveries.filter(d => d.location);
-        //TODO - within X miles? //pass predicate as argument?
+    getPickupLocations: function(deliveries) {
+        return deliveries.filter(d => d.Location).map(toPickup);
     }
 };
 
-function transformDelivery(d) {
-    let delivery = {
+function toPickup(d) {
+    let pickup = {
         deliveryId: d.DeliveryId,
         date: d.Date,
         slot: {
@@ -23,7 +18,7 @@ function transformDelivery(d) {
     };
 
     if (d.Location) {
-        delivery.location = {
+        pickup.location = {
             deliveryLocationId: d.Location.DeliveryLocationId,
             type: d.Location.Type,
             name: d.Location.Name,
@@ -32,5 +27,5 @@ function transformDelivery(d) {
         };
     }
 
-    return delivery;
+    return pickup;
 }
