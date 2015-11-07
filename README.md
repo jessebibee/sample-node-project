@@ -14,12 +14,17 @@ $ npm install
 $ npm run lint
 ```
 
-##### Run Tests
+##### Run Unit Tests
 ```Shell
 $ npm run test
 ```
 
-##### Run Tests with file watcher
+##### Run Unit Tests with file watcher
 ```Shell
 $ npm run test:watch
+```
+
+##### Run Integration Tests with file watcher (uses real deliveries data)
+```Shell
+$ npm run test:integration
 ```

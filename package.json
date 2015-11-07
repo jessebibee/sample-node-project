@@ -4,10 +4,12 @@
   "description": "",
   "main": "pickupsRecommender.js",
   "scripts": {
-    "test": "mocha --require babel-core/register",
+    "test": "npm run lint && mocha test/**/*.spec.js --require babel-core/register",
     "test:watch": "npm run test -- --watch",
-    "lint": "eslint src/**/*.js"
+    "test:integration": "mocha test/integration.js --require babel-core/register",
+    "lint": "eslint src/**/*.js test/**/*.js"
   },
+  "pre-commit": "npm test",
   "author": "Jesse Bibee",
   "license": "ISC",
   "dependencies": {
