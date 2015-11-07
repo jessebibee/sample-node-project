@@ -1,4 +1,4 @@
-import deliveries from './data/availableDeliveries.json';
+import deliveries from './../data/availableDeliveries.json';
 
 const availableDeliveries = deliveries.map(transformDelivery);
 

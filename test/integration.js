@@ -1,5 +1,5 @@
 import chai from 'chai';
-import recommender from '../pickupsRecommender';
+import recommender from '../src/pickupsRecommender';
 
 chai.should();
 

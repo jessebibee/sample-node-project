@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --require babel-core/register",
     "test:watch": "npm run test -- --watch",
-    "lint": "eslint pickupsRecommender.js"
+    "lint": "eslint src/**/*.js"
   },
   "author": "Jesse Bibee",
   "license": "ISC",
