@@ -2,7 +2,7 @@ import { minDistance, date } from './sorter';
 
 const recommender = {
     byDay: function (pickups, locations, pickupLocationsPerDay = 3) {
-        let pickupDays = [];
+        const pickupDays = [];
 
         pickups.reduce(toDays, new Map()).forEach((value, key) => {
             pickupDays.push({
@@ -13,14 +13,25 @@ const recommender = {
         });
 
         return pickupDays.sort(date(d => d.date));
+    },
+    byPickupLocation: function (pickups, locations) {
+        return Array.from(pickups.reduce(toLocations, new Map()).values())
+            .sort(minDistance(locations, p => p.coordinates));
     }
-    //byLocation
 };
 
 function toDays(map, pickup) {
     map.has(pickup.date) ?
         map.get(pickup.date).push(pickup) :
         map.set(pickup.date, [pickup]);
+
+    return map;
+}
+
+function toLocations(map, pickup) {
+    map.has(pickup.location.deliveryLocationId) ?
+        map.get(pickup.location.deliveryLocationId).slots.push(pickup.slot) :
+        map.set(pickup.location.deliveryLocationId, Object.assign(pickup.location, { slots: [pickup.slot] }));
 
     return map;
 }

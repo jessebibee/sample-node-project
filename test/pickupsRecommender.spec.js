@@ -64,18 +64,64 @@ describe('Pickups recommender', () => {
             const resultPickups = result[0].pickups;
             resultPickups.should.have.length(1);
         });
+
+    });
+
+    describe('when recommending by pickup location', () => {
+
+        it('orders pickup locations', () => {
+            const baltimore = buildPickup('Baltimore', '2015-11-05', baltimoreCoords, 'loc1', 'slot1');
+            const bethesda = buildPickup('Bethesda', '2015-11-05', bethesdaCoords, 'loc2', 'slot2');
+            const charlottesville = buildPickup('Charlottesville', '2015-11-05', charlottesvilleCoords, 'loc3', 'slot3');
+            const pickups = [baltimore, bethesda, charlottesville];
+
+            var locations = recommender.byPickupLocation(pickups, [charlottesvilleCoords]);
+
+            locations.should.have.length(3);
+            locations[0].deliveryLocationId.should.equal(charlottesville.location.deliveryLocationId);
+            locations[1].deliveryLocationId.should.equal(bethesda.location.deliveryLocationId);
+            locations[2].deliveryLocationId.should.equal(baltimore.location.deliveryLocationId);
+        });
+
+        it('orders pickup locations by minimum distance from multiple locations', () => {
+            const baltimore = buildPickup('Baltimore', '2015-11-05', baltimoreCoords, 'loc1', 'slot1');
+            const bethesda = buildPickup('Bethesda', '2015-11-05', bethesdaCoords, 'loc2', 'slot2');
+            const charlottesville = buildPickup('Charlottesville', '2015-11-05', charlottesvilleCoords, 'loc3', 'slot3');
+            const pickups = [baltimore, bethesda, charlottesville];
+
+            var locations = recommender.byPickupLocation(pickups, [charlottesvilleCoords, justOutsideBaltimoreCoords]);
+
+            locations.should.have.length(3);
+            locations[0].deliveryLocationId.should.equal(charlottesville.location.deliveryLocationId);
+            locations[1].deliveryLocationId.should.equal(baltimore.location.deliveryLocationId);
+            locations[2].deliveryLocationId.should.equal(bethesda.location.deliveryLocationId);
+        });
+
+        it('each pickup location contains all of its available time slots', () => {
+            const baltimoreSlot1 = buildPickup('Baltimore1', '2015-11-05', baltimoreCoords, 'loc1', 'slot1');
+            const baltimoreSlot2 = buildPickup('Baltimore2', '2015-11-06', baltimoreCoords, 'loc1', 'slot2');
+            const pickups = [baltimoreSlot1, baltimoreSlot2];
+
+            var locations = recommender.byPickupLocation(pickups, [baltimoreCoords]);
+
+            locations.should.have.length(1);
+            locations[0].slots.should.have.length(2);
+            locations[0].slots[0].deliverySlotId.should.equal('slot1');
+            locations[0].slots[1].deliverySlotId.should.equal('slot2');
+        });
     });
 });
 
 
 
-function buildPickup(name, date, coordinates) {
+function buildPickup(name, date, coordinates, deliveryLocationId, deliverySlotId) {
     return {
         date: date,
         slot: {
-
+            deliverySlotId: deliverySlotId
         },
         location: {
+            deliveryLocationId: deliveryLocationId,
             name: name,
             coordinates: coordinates
         }
