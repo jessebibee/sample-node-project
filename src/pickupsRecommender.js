@@ -1,13 +1,13 @@
-import { distance, date } from './sorter';
+import { minDistance, date } from './sorter';
 
 const recommender = {
-    byDay: function (pickups, location, pickupLocationsPerDay = 3) {
+    byDay: function (pickups, locations, pickupLocationsPerDay = 3) {
         let pickupDays = [];
 
         pickups.reduce(toDays, new Map()).forEach((value, key) => {
             pickupDays.push({
                 date: key,
-                pickups: value.sort(distance(location, v => v.location.coordinates))
+                pickups: value.sort(minDistance(locations, v => v.location.coordinates))
                     .slice(0, pickupLocationsPerDay)
             });
         });
