@@ -26,4 +26,8 @@ export function distanceFromMultipleCoordinates(fromCoordinates, accessor) {
     }
 }
 
-//TODO - timeslots, days, ??
+export function date(accessor) {
+    return function(a, b) {
+        return Date.parse(accessor(a)) - Date.parse(accessor(b));
+    };
+}
