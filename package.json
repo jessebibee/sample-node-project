@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run lint && mocha test/**/*.spec.js --require babel-core/register",
     "test:watch": "npm run test -- --watch",
-    "test:integration": "mocha test/integration.js --require babel-core/register",
+    "test:e2e": "mocha test/e2e.js --require babel-core/register",
     "lint": "eslint src/**/*.js test/**/*.js"
   },
   "pre-commit": "npm test",

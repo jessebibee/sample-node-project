@@ -1,0 +1,626 @@
+[
+  {
+    "deliveryLocationId": "5805ee13-7d88-444a-9869-afab91ddfc8e",
+    "type": 1,
+    "name": "Dulles | AOL",
+    "description": "<b> 22000 AOL Way Dulles, VA 20166</b><br>Located in the AOL office parking lot. ",
+    "coordinates": [
+      -77.446299,
+      39.00427
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "b0f5e908-b1b2-4531-9ecf-9263ea7782b0",
+        "day": 3,
+        "startTime": "15:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "920ce0b6-75de-4f2d-955c-b4e39e57129e",
+    "type": 1,
+    "name": "McLean | Rite Aid at Chain Bridge Road",
+    "description": "<b>1312 Chain Bridge Rd, McLean, VA 22101</b> <br><b>",
+    "coordinates": [
+      -77.174936,
+      38.939838
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "105d656f-86bc-4d8f-95b8-0db93ea48a94",
+        "day": 5,
+        "startTime": "16:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "3638015d-26d6-4f70-b77e-07730ef5a61c",
+    "type": 1,
+    "name": "Rockville | King Farm",
+    "description": "<b>805 King Farm Blvd. Rockville, MD 20850</b><br>Our truck is located behind the parking garage of 805 King Farm Blvd. Rockville, MD 20850. The parking lot is only accessible via Piccard Drive.",
+    "coordinates": [
+      -77.182268,
+      39.111125
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "7097bd18-2d2b-4b91-9cc6-2fee956518cf",
+        "day": 4,
+        "startTime": "15:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "4a660a25-fd39-4c28-8860-9729fbc8a43a",
+    "type": 5,
+    "name": "Virginia Square | Arlington Arts Center",
+    "description": "<b>3550 Wilson Blvd. Arlington, VA 22201</b><br>Conveniently located a block from the Virginia Square Metro Station in the parking lot of the Arlington Arts Center. ",
+    "coordinates": [
+      -77.102375,
+      38.881963
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "4778c063-8847-4d9e-950c-796e7fb55f52",
+        "day": 2,
+        "startTime": "15:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "9a1d7021-a62b-4098-958b-dc3fbec37a8f",
+    "type": 5,
+    "name": "Tenleytown | Fort Reno Park",
+    "description": "  <b> Chesapeake St. NW and 40th St. NW Washington, DC 20016</b><br>Located on Chesapeake St. between 40th St. and Nebraska Ave.",
+    "coordinates": [
+      -77.076372,
+      38.950995
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "b21c50b2-ea6a-460e-9ae2-26c692e5ecdc",
+        "day": 2,
+        "startTime": "16:30:00",
+        "endTime": "20:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "53b90287-7455-4be8-879b-f9a53f2ac945",
+    "type": 2,
+    "name": "Courthouse/Clarendon | Francis Scott Key Elementary School",
+    "description": "<b>2300 Key Blvd, Arlington, VA 22201</b><br>Located at the the intersection of Key Blvd and Veitch St. next to the school playground and basketball court.",
+    "coordinates": [
+      -77.086902,
+      38.89245
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "b3b2c8a6-9a9e-4b2c-8ba5-18ce9ebf1d12",
+        "day": 1,
+        "startTime": "15:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "778a3a78-fd01-4f8c-9dae-2788aa82a930",
+    "type": 6,
+    "name": "Private Drop Spot | The Prime at Arlington Courthouse (for residents only)",
+    "description": "Please pick up your order from the concierge.",
+    "coordinates": [
+      -77.08184,
+      38.89028
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "b916f623-d9c8-4db6-96a2-650880ef9820",
+        "day": 5,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "a3ceec67-73bc-4291-9dc2-47d8333ac1e0",
+    "type": 6,
+    "name": "Private Drop Spot | Bennett Park Apartments (for residents only)",
+    "description": "Please pick up your order from the concierge.",
+    "coordinates": [
+      -77.077117,
+      38.894056
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "3943c03b-92e5-4e0d-985e-15bc70f0c2de",
+        "day": 1,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "abcc4bea-a2bb-4fc1-a1dd-caa7e09946c5",
+    "type": 5,
+    "name": "Mt. Pleasant | Mt. Pleasant St NW and Lamont St. NW",
+    "description": "<b>3213 Mount Pleasant St. NW Washington, DC 20010</b><br>At Lamont Park, in Mount Pleasant, on the corner of Lamont St. NW and Mount Pleasant St. NW. ",
+    "coordinates": [
+      -77.038708,
+      38.931649
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "ba8a53df-e2bb-4d00-9330-8640b5ea6909",
+        "day": 4,
+        "startTime": "15:30:00",
+        "endTime": "19:30:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "6ca689f3-78f3-4a88-a0f6-4017e865858d",
+    "type": 3,
+    "name": "Adams Morgan/Dupont | MINT Gym at 18th and California",
+    "description": "<b> 1724 California St. NW Washington, DC 20009</b><br>Located on California St, between 18th and Florida. ",
+    "coordinates": [
+      -77.040841,
+      38.917748
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "60a05646-2afc-44f8-b07f-2db3c11d8b15",
+        "day": 2,
+        "startTime": "15:00:00",
+        "endTime": "20:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "d73ed35c-56e8-47cf-8f83-35686402877f",
+    "type": 6,
+    "name": "Private Drop Spot | The Allegro Apartments (for residents only)",
+    "description": "Please pick up your order from the concierge.",
+    "coordinates": [
+      -77.033084,
+      38.932655
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "aeb20db1-75b9-4292-9882-f99f7e6a8670",
+        "day": 4,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "546e5f9e-381a-497c-bf1b-8aed4784de85",
+    "type": 1,
+    "name": "Silver Spring | Pyramid Atlantic Art Center",
+    "description": " <b>8230 Georgia Ave. Silver Spring, MD 20910</b><br>Located in the Pyramid Atlantic Art Center parking lot. ",
+    "coordinates": [
+      -77.02704,
+      38.992641
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "b3b2c8a6-9a9e-4b2c-8ba5-18ce9ebf1d12",
+        "day": 1,
+        "startTime": "15:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "deb37930-85f9-4a55-b617-b29cb3040d81",
+    "type": 6,
+    "name": "Private Drop Spot | Park at Pentagon Row Apartments (for residents only)",
+    "description": "Please pick up your order from the concierge.",
+    "coordinates": [
+      -77.060319,
+      38.861127
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "64bf56bd-87b4-4472-8307-db209ef2f534",
+        "day": 3,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "3454aab2-da52-44af-8700-4ab8644bccfe",
+    "type": 6,
+    "name": "Private Drop Spot | 14W Apartments, U Street (for residents only)",
+    "description": "Please pick up your order from the concierge.",
+    "coordinates": [
+      -77.03138,
+      38.919324
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "facd719f-d9fd-4a6c-a120-7ab0b0f5d7dc",
+        "day": 2,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "405b0a5b-290c-4125-8e81-97c9af8a33c9",
+    "type": 5,
+    "name": "Petworth l 9th St. NW",
+    "description": "  <b>9th St. NW and Upshur St. NW Washington, DC 20011</b><br>Our truck will be located on 9th St. NW between Taylor St. NW and Upshur St. NW.",
+    "coordinates": [
+      -77.025069,
+      38.94123
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "0efd0b9b-d6f0-4d92-92a6-fbf920d7f917",
+        "day": 3,
+        "startTime": "16:30:00",
+        "endTime": "20:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "2a1febe7-68ed-45df-85c3-bd7d37c82eeb",
+    "type": 6,
+    "name": "Private Drop Spot | Park Place & Griffin Apartment - Petworth (for residents only)",
+    "description": "Please pick up your order from the concierge.",
+    "coordinates": [
+      -77.02415,
+      38.937489
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "b916f623-d9c8-4db6-96a2-650880ef9820",
+        "day": 5,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "a2c0b6ee-4b3a-404b-8d98-75a3529f4a2b",
+    "type": 5,
+    "name": "Crystal City | The Lenox Apartments ",
+    "description": " <b>401 12th St. S, Arlington, VA 22202</b><br>Located on 12th St S. The truck is parked on the street on either side of the entrance to the Lenox building.",
+    "coordinates": [
+      -77.053082,
+      38.863318
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "404abd5e-5966-49b7-b9c8-359846263b80",
+        "day": 5,
+        "startTime": "15:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "04464a0d-3e12-4c6d-a9af-906349e93649",
+    "type": 5,
+    "name": " Logan Circle / Shaw | 13th St. NW and S St. NW",
+    "description": "<b>1200 S St. NW Washington, DC 20009</b> <br>  Our truck is located in the 1200 block of S St. NW off from 13 St. NW. We will be located on the same block as Garrison Elementary School. ",
+    "coordinates": [
+      -77.029149,
+      38.913977
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "88734c80-da57-49c2-8383-bc366ee8e263",
+        "day": 5,
+        "startTime": "16:00:00",
+        "endTime": "20:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "6826ba24-eb24-458e-872c-08666dd3efb1",
+    "type": 1,
+    "name": "Takoma Park | Trohv Shop on Carroll St. NW",
+    "description": "<b> 232 Carroll St. NW Washington, DC 20012</b><br>Our truck is located in the parking lot of  Trohv DC. ",
+    "coordinates": [
+      -77.015123,
+      38.974746
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "29d81633-cb02-4d5d-b997-79e297339a60",
+        "day": 3,
+        "startTime": "15:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "2bf2106c-e3c7-4b33-8eea-cdaca4cd7d42",
+    "type": 6,
+    "name": "Private Drop Spot | Avalon at Gallery Place - China Town (for residents only)",
+    "description": "Please pickup your order from the concierge.",
+    "coordinates": [
+      -77.019104,
+      38.898928
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "b916f623-d9c8-4db6-96a2-650880ef9820",
+        "day": 5,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "80fabb6c-6242-439e-93b7-0d5a2a0e1856",
+    "type": 4,
+    "name": "Alexandria | Eisenhower Ave. Metro",
+    "description": "<b>2400 Eisenhower Ave. Alexandria, VA 22314</b><br>Location is at the Hoffman parking lot next to the Eisenhower Metro Station, at the corner of Eisenhower Ave and Stovall Street. The Relay truck will be just to the right as you enter the lot. If you enter the lot after 5:30 pm the gate is open and you can drive over to the truck. Before 5:30 pm, pull in and park next to the yellow guard rail. The driver will be able to assist you then. ",
+    "coordinates": [
+      -77.072673,
+      38.801309
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "7097bd18-2d2b-4b91-9cc6-2fee956518cf",
+        "day": 4,
+        "startTime": "15:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "08137aba-d095-4cfb-ab8b-304f6d116317",
+    "type": 6,
+    "name": "Private Drop Spot | Flats 130 at Constitution Square (for residents only)",
+    "description": "Please pick up your order from the concierge.",
+    "coordinates": [
+      -77.005126,
+      38.906129
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "64bf56bd-87b4-4472-8307-db209ef2f534",
+        "day": 3,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "e279321a-a7a2-476f-b537-14dc42d0cf24",
+    "type": 5,
+    "name": "Brookland | 7th St. NE and Jackson St. NE",
+    "description": "<b>650 Jackson St. NE Washington, DC 20017</b><br>Our truck is located on 600 block of Jackson St. NE just off 7th St. NE",
+    "coordinates": [
+      -76.997284,
+      38.929467
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "606433f6-f93f-440d-a0a7-76056b0e2043",
+        "day": 4,
+        "startTime": "16:30:00",
+        "endTime": "19:30:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "a51af7e6-c2bf-40b3-b012-64c897891ff1",
+    "type": 5,
+    "name": "NOMA | Union Kitchen",
+    "description": " <b> 3rd St. NE and L St. NE Washington, DC 20002 </b><br>Located just up the street from Union Kitchen at the corner of 3rd St. NE and L St. NE.",
+    "coordinates": [
+      -77.002273,
+      38.903927
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "dee41d73-d3a8-413b-a925-3acf524b2801",
+        "day": 3,
+        "startTime": "16:00:00",
+        "endTime": "20:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "91683fcc-0afd-4044-99c7-a2874f9658e4",
+    "type": 5,
+    "name": "Union Station | 3rd St. NE and G St. NE",
+    "description": "<b> 215 G St. NE Washington, DC 20002</b><br>Our truck is located at the corner of 3rd St and G Street NE.",
+    "coordinates": [
+      -77.002368,
+      38.898591
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "194aea9a-43b4-4998-9970-add0b1c7fb56",
+        "day": 2,
+        "startTime": "16:00:00",
+        "endTime": "20:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "c3b28e9c-3383-44d0-a0aa-0ed47ce5d400",
+    "type": 6,
+    "name": "Private Drop Spot | Camden South Capitol (for residents only)",
+    "description": "Please pick up your order from the concierge.",
+    "coordinates": [
+      -77.009611,
+      38.873845
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "facd719f-d9fd-4a6c-a120-7ab0b0f5d7dc",
+        "day": 2,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "4b793e6e-dd1c-4cbd-86e4-42980cd5f15d",
+    "type": 5,
+    "name": "Capitol Hill | Eastern Market",
+    "description": "<b>225 7th St SE, Washington, DC 20003</b><br> Our truck will be parked in front of Eastern Market in the public parking spaces. ",
+    "coordinates": [
+      -76.996217,
+      38.886831
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "e00175b9-8061-48fa-a11e-05511406f6b1",
+        "day": 1,
+        "startTime": "16:00:00",
+        "endTime": "20:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "cb86e956-ad1d-4f22-b837-d1c21d5a8317",
+    "type": 6,
+    "name": "Private Drop Spot | Foundry Lofts Apartments - Navy Yard (for residents only)",
+    "description": "Please pick up your order from the concierge.",
+    "coordinates": [
+      -77.001437,
+      38.874463
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "b916f623-d9c8-4db6-96a2-650880ef9820",
+        "day": 5,
+        "startTime": "16:00:00",
+        "endTime": "21:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "1e712e0a-ed2e-4713-9dbb-4dd5bcca7e5f",
+    "type": 5,
+    "name": "Capitol Hill | Christ Church on Capitol Hill",
+    "description": " <b>620 G St. SE Washington, DC 20003</b><br>Conveniently located behind Christ Church on Capitol Hill in their Parking lot. The parking lot is on F St. Terrace SE access is available from G St. SE or E St. SE.",
+    "coordinates": [
+      -76.997682,
+      38.881979
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "3957b711-a609-497a-9e40-d01c5e59c26e",
+        "day": 5,
+        "startTime": "16:00:00",
+        "endTime": "20:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "07dadc6e-e217-4bf3-8708-c99c66f4764e",
+    "type": 2,
+    "name": "College Park | University View",
+    "description": " <b>8204 Baltimore Ave. College Park, MD 20740</b><br>Located in the University View's Parking lot, in front of the main entrance.",
+    "coordinates": [
+      -76.934215,
+      38.992282
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "200b7056-d2d2-4974-af6a-6128d1e41c38",
+        "day": 5,
+        "startTime": "15:00:00",
+        "endTime": "19:00:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  },
+  {
+    "deliveryLocationId": "f088dac4-ce9c-4622-8703-dbe793dd14f7",
+    "type": 6,
+    "name": "Private Drop Spot | Relay Foods Employees Only",
+    "description": "A drop site for Relay Foods staff use only.",
+    "coordinates": [
+      0,
+      0
+    ],
+    "slots": [
+      {
+        "deliverySlotId": "7d5ac2db-dd3b-4ad3-af40-169a35bb0e15",
+        "day": 4,
+        "startTime": "13:00:00",
+        "endTime": "20:30:00",
+        "orderDaysInAdvance": 0
+      },
+      {
+        "deliverySlotId": "e28d315a-78d7-41b8-ac25-c8a55b98dbe0",
+        "day": 5,
+        "startTime": "13:00:00",
+        "endTime": "18:00:00",
+        "orderDaysInAdvance": 0
+      },
+      {
+        "deliverySlotId": "0f91037c-002e-44cb-96ec-3bf911f1f54c",
+        "day": 6,
+        "startTime": "06:00:00",
+        "endTime": "11:30:00",
+        "orderDaysInAdvance": 0
+      },
+      {
+        "deliverySlotId": "b9d2026a-4947-40f0-8a21-0c962bc08b5d",
+        "day": 1,
+        "startTime": "13:00:00",
+        "endTime": "20:30:00",
+        "orderDaysInAdvance": 0
+      },
+      {
+        "deliverySlotId": "bce5edad-a7e3-4a99-a15d-dc5548e994a3",
+        "day": 2,
+        "startTime": "13:00:00",
+        "endTime": "20:30:00",
+        "orderDaysInAdvance": 0
+      },
+      {
+        "deliverySlotId": "32c16f98-44a4-43f7-bf42-77c558014d41",
+        "day": 3,
+        "startTime": "13:00:00",
+        "endTime": "20:30:00",
+        "orderDaysInAdvance": 0
+      }
+    ]
+  }
+]

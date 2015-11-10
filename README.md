@@ -24,7 +24,7 @@ $ npm run test
 $ npm run test:watch
 ```
 
-##### Run Integration Tests with file watcher (uses real deliveries data)
+##### Run E2E Tests (uses data/availableDeliveries.json and writes results to sample-results directory)
 ```Shell
-$ npm run test:integration
+$ npm run test:e2e
 ```
