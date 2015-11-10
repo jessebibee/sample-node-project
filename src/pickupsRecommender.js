@@ -33,7 +33,7 @@ function toDays(map, pickup) {
 }
 
 function toLocations(map, pickup) {
-    const pickupSlot = Object.assign(pickup.slot, { date: pickup.date });
+    const pickupSlot = Object.assign({}, pickup.slot, { date: pickup.date });
 
     map.has(pickup.location.deliveryLocationId) ?
         map.get(pickup.location.deliveryLocationId).slots.push(pickupSlot) :
