@@ -1,6 +1,8 @@
 import chai from 'chai';
 import recommender from '../src/pickupsRecommender';
 import Guid from 'guid';
+import distance from 'turf-distance';
+import point from 'turf-point';
 chai.should();
 
 describe('Pickups recommender', () => {
@@ -66,6 +68,17 @@ describe('Pickups recommender', () => {
             resultPickups.should.have.length(1);
         });
 
+        it('appends distance in miles for each inputted location', () => {
+            const bethesda = buildPickup('Bethesda', '2015-11-05', bethesdaCoords);
+            const pickups = [bethesda];
+
+            var result = recommender.byDay(pickups, [charlottesvilleCoords], 1);
+
+            const expectedDistance = distance(point(charlottesvilleCoords), point(bethesdaCoords), 'miles');
+            result[0].pickups[0].distances[0].location.should.equal(charlottesvilleCoords);
+            result[0].pickups[0].distances[0].distanceInMiles.should.equal(expectedDistance);
+        });
+
     });
 
     describe('when recommending by pickup location', () => {
@@ -106,12 +119,21 @@ describe('Pickups recommender', () => {
 
             var locations = recommender.byPickupLocation(pickups, [baltimoreCoords]);
 
-            console.log(locations);
-
             locations.should.have.length(1);
             locations[0].slots.should.have.length(2);
             locations[0].slots[0].deliverySlotId.should.equal(baltimoreSlot1.slot.deliverySlotId);
             locations[0].slots[1].deliverySlotId.should.equal(baltimoreSlot2.slot.deliverySlotId);
+        });
+
+        it('appends distance in miles for each inputted location', () => {
+            const bethesda = buildPickup('Bethesda', '2015-11-05', bethesdaCoords);
+            const pickups = [bethesda];
+
+            var result = recommender.byPickupLocation(pickups, [charlottesvilleCoords], 1);
+
+            const expectedDistance = distance(point(charlottesvilleCoords), point(bethesdaCoords), 'miles');
+            result[0].distances[0].location.should.equal(charlottesvilleCoords);
+            result[0].distances[0].distanceInMiles.should.equal(expectedDistance);
         });
     });
 });

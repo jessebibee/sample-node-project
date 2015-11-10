@@ -16,6 +16,15 @@
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 3.21255037447079
+      }
     ]
   },
   {
@@ -34,6 +43,15 @@
         "startTime": "16:00:00",
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 12.083511985116724
       }
     ]
   },
@@ -54,6 +72,15 @@
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 14.303236956344046
+      }
     ]
   },
   {
@@ -72,6 +99,15 @@
         "startTime": "15:00:00",
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 17.117356963476066
       }
     ]
   },
@@ -92,6 +128,15 @@
         "endTime": "20:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 17.140066642048488
+      }
     ]
   },
   {
@@ -110,6 +155,15 @@
         "startTime": "15:00:00",
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 17.604356244652024
       }
     ]
   },
@@ -130,6 +184,15 @@
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 17.912488308140965
+      }
     ]
   },
   {
@@ -148,6 +211,15 @@
         "startTime": "16:00:00",
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 18.057574905140324
       }
     ]
   },
@@ -168,6 +240,15 @@
         "endTime": "19:30:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 19.35520610508242
+      }
     ]
   },
   {
@@ -186,6 +267,15 @@
         "startTime": "15:00:00",
         "endTime": "20:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 19.447844831854685
       }
     ]
   },
@@ -206,6 +296,15 @@
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 19.63941576947703
+      }
     ]
   },
   {
@@ -224,6 +323,15 @@
         "startTime": "15:00:00",
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 19.642254448949487
       }
     ]
   },
@@ -244,6 +352,15 @@
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 19.776894552804833
+      }
     ]
   },
   {
@@ -262,6 +379,15 @@
         "startTime": "16:00:00",
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 19.917522841180208
       }
     ]
   },
@@ -282,6 +408,15 @@
         "endTime": "20:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 19.965829169276354
+      }
     ]
   },
   {
@@ -300,6 +435,15 @@
         "startTime": "16:00:00",
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 20.054977469785268
       }
     ]
   },
@@ -320,6 +464,15 @@
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 20.0653917853377
+      }
     ]
   },
   {
@@ -338,6 +491,15 @@
         "startTime": "16:00:00",
         "endTime": "20:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 20.12075073031465
       }
     ]
   },
@@ -358,6 +520,15 @@
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 20.28586688349056
+      }
     ]
   },
   {
@@ -376,6 +547,15 @@
         "startTime": "16:00:00",
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 20.9154551542309
       }
     ]
   },
@@ -396,6 +576,15 @@
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 21.339586536334423
+      }
     ]
   },
   {
@@ -414,6 +603,15 @@
         "startTime": "16:00:00",
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 21.506744223860537
       }
     ]
   },
@@ -434,6 +632,15 @@
         "endTime": "19:30:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 21.572476198205262
+      }
     ]
   },
   {
@@ -452,6 +659,15 @@
         "startTime": "16:00:00",
         "endTime": "20:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 21.693886462682492
       }
     ]
   },
@@ -472,6 +688,15 @@
         "endTime": "20:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 21.78668928265316
+      }
     ]
   },
   {
@@ -490,6 +715,15 @@
         "startTime": "16:00:00",
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 21.948498164914195
       }
     ]
   },
@@ -510,6 +744,15 @@
         "endTime": "20:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 22.337555621476355
+      }
     ]
   },
   {
@@ -528,6 +771,15 @@
         "startTime": "16:00:00",
         "endTime": "21:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 22.346645904187383
       }
     ]
   },
@@ -548,6 +800,15 @@
         "endTime": "20:00:00",
         "orderDaysInAdvance": 0
       }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 22.36654932958851
+      }
     ]
   },
   {
@@ -566,6 +827,15 @@
         "startTime": "15:00:00",
         "endTime": "19:00:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 24.62654311734157
       }
     ]
   },
@@ -620,6 +890,15 @@
         "startTime": "13:00:00",
         "endTime": "20:30:00",
         "orderDaysInAdvance": 0
+      }
+    ],
+    "distances": [
+      {
+        "location": [
+          -77.392502,
+          38.983965
+        ],
+        "distanceInMiles": 5545.206784941837
       }
     ]
   }
