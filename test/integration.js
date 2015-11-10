@@ -1,21 +1,20 @@
 import chai from 'chai';
-import recommender from '../src/pickupsRecommender';
 import deliveries from '../data/availableDeliveries.json';
-import deliveriesService from '../src/deliveriesService';
+import deliveriesStore from '../src/deliveriesStore';
+import pickupsEngine from '../src/pickupsEngine';
 chai.should();
 
-let pickups;
-
-before(() => pickups = deliveriesService.getPickupLocations(deliveries));
+before(() => deliveriesStore.setDeliveries(deliveries));
 
 describe('Pickups recommender', () => {
     it('can recommend pickups by day', () => {
-        var days = recommender.byDay(pickups, [[-77.392502, 38.983965]]);
+        var days = pickupsEngine.closestByDay([[-77.392502, 38.983965]]);
         days.should.have.length.above(0);
     });
 
     it('can recommend pickups by location', () => {
-        var locations = recommender.byPickupLocation(pickups, [[-77.392502, 38.983965]]);
+        var locations = pickupsEngine.closestLocations([[-77.392502, 38.983965]]);
         locations.should.have.length.above(0);
     });
 });
+

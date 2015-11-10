@@ -1,8 +1,24 @@
-export default {
-    getPickupLocations: function(deliveries) {
-        return deliveries.filter(d => d.Location).map(toPickup);
+import deliveriesStore from './deliveriesStore'
+import pickupsRecommender from './pickupsRecommender';
+
+let currentPickups = [];
+
+deliveriesStore.subscribe(() =>
+    currentPickups = deliveriesStore.getAvailableDeliveries()
+        .filter(d => d.Location) //deliveries with a Location are pickup spots
+        .map(toPickup)
+);
+
+const pickupsEngine = {
+    closestLocations: function (locations) {
+        return pickupsRecommender.byPickupLocation(currentPickups, locations);
+    },
+    closestByDay: function (locations) {
+        return pickupsRecommender.byDay(currentPickups, locations);
     }
 };
+
+export default pickupsEngine;
 
 function toPickup(d) {
     let pickup = {
@@ -29,3 +45,5 @@ function toPickup(d) {
 
     return pickup;
 }
+
+
