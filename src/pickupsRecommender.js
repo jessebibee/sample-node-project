@@ -33,15 +33,17 @@ function toDays(map, pickup) {
 }
 
 function toLocations(map, pickup) {
+    const pickupSlot = Object.assign(pickup.slot, { date: pickup.date });
+
     map.has(pickup.location.deliveryLocationId) ?
-        map.get(pickup.location.deliveryLocationId).slots.push(pickup.slot) :
-        map.set(pickup.location.deliveryLocationId, Object.assign(pickup.location, { slots: [pickup.slot] }));
+        map.get(pickup.location.deliveryLocationId).slots.push(pickupSlot) :
+        map.set(pickup.location.deliveryLocationId, Object.assign({}, pickup.location, { slots: [pickupSlot] }));
 
     return map;
 }
 
 function appendDistances(obj, locations, resultCoordsAccessor) {
-    return Object.assign(obj, {
+    return Object.assign({}, obj, {
             distances: locations.map(l => ({
                 location: l,
                 distanceInMiles: distance(point(l), point(resultCoordsAccessor(obj)), 'miles')

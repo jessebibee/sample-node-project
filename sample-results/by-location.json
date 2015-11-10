@@ -14,7 +14,8 @@
         "day": 3,
         "startTime": "15:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-11"
       }
     ],
     "distances": [
@@ -42,7 +43,8 @@
         "day": 5,
         "startTime": "16:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       }
     ],
     "distances": [
@@ -70,7 +72,8 @@
         "day": 4,
         "startTime": "15:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-05"
       }
     ],
     "distances": [
@@ -98,7 +101,8 @@
         "day": 2,
         "startTime": "15:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-10"
       }
     ],
     "distances": [
@@ -126,7 +130,8 @@
         "day": 2,
         "startTime": "16:30:00",
         "endTime": "20:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-10"
       }
     ],
     "distances": [
@@ -154,7 +159,8 @@
         "day": 1,
         "startTime": "15:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-09"
       }
     ],
     "distances": [
@@ -182,7 +188,8 @@
         "day": 5,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       }
     ],
     "distances": [
@@ -210,7 +217,8 @@
         "day": 1,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-09"
       }
     ],
     "distances": [
@@ -238,7 +246,8 @@
         "day": 4,
         "startTime": "15:30:00",
         "endTime": "19:30:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-05"
       }
     ],
     "distances": [
@@ -266,7 +275,8 @@
         "day": 2,
         "startTime": "15:00:00",
         "endTime": "20:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-10"
       }
     ],
     "distances": [
@@ -294,7 +304,8 @@
         "day": 4,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-05"
       }
     ],
     "distances": [
@@ -322,7 +333,8 @@
         "day": 1,
         "startTime": "15:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-09"
       }
     ],
     "distances": [
@@ -350,7 +362,8 @@
         "day": 3,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-11"
       }
     ],
     "distances": [
@@ -378,7 +391,8 @@
         "day": 2,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-10"
       }
     ],
     "distances": [
@@ -406,7 +420,8 @@
         "day": 3,
         "startTime": "16:30:00",
         "endTime": "20:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-11"
       }
     ],
     "distances": [
@@ -434,7 +449,8 @@
         "day": 5,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       }
     ],
     "distances": [
@@ -462,7 +478,8 @@
         "day": 5,
         "startTime": "15:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       }
     ],
     "distances": [
@@ -490,7 +507,8 @@
         "day": 5,
         "startTime": "16:00:00",
         "endTime": "20:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       }
     ],
     "distances": [
@@ -518,7 +536,8 @@
         "day": 3,
         "startTime": "15:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-11"
       }
     ],
     "distances": [
@@ -546,7 +565,8 @@
         "day": 5,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       }
     ],
     "distances": [
@@ -574,7 +594,8 @@
         "day": 4,
         "startTime": "15:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-05"
       }
     ],
     "distances": [
@@ -602,7 +623,8 @@
         "day": 3,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-11"
       }
     ],
     "distances": [
@@ -630,7 +652,8 @@
         "day": 4,
         "startTime": "16:30:00",
         "endTime": "19:30:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-05"
       }
     ],
     "distances": [
@@ -658,7 +681,8 @@
         "day": 3,
         "startTime": "16:00:00",
         "endTime": "20:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-11"
       }
     ],
     "distances": [
@@ -686,7 +710,8 @@
         "day": 2,
         "startTime": "16:00:00",
         "endTime": "20:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-10"
       }
     ],
     "distances": [
@@ -714,7 +739,8 @@
         "day": 2,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-10"
       }
     ],
     "distances": [
@@ -742,7 +768,8 @@
         "day": 1,
         "startTime": "16:00:00",
         "endTime": "20:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-09"
       }
     ],
     "distances": [
@@ -770,7 +797,8 @@
         "day": 5,
         "startTime": "16:00:00",
         "endTime": "21:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       }
     ],
     "distances": [
@@ -798,7 +826,8 @@
         "day": 5,
         "startTime": "16:00:00",
         "endTime": "20:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       }
     ],
     "distances": [
@@ -826,7 +855,8 @@
         "day": 5,
         "startTime": "15:00:00",
         "endTime": "19:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       }
     ],
     "distances": [
@@ -854,42 +884,48 @@
         "day": 4,
         "startTime": "13:00:00",
         "endTime": "20:30:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-05"
       },
       {
         "deliverySlotId": "e28d315a-78d7-41b8-ac25-c8a55b98dbe0",
         "day": 5,
         "startTime": "13:00:00",
         "endTime": "18:00:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-06"
       },
       {
         "deliverySlotId": "0f91037c-002e-44cb-96ec-3bf911f1f54c",
         "day": 6,
         "startTime": "06:00:00",
         "endTime": "11:30:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-07"
       },
       {
         "deliverySlotId": "b9d2026a-4947-40f0-8a21-0c962bc08b5d",
         "day": 1,
         "startTime": "13:00:00",
         "endTime": "20:30:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-09"
       },
       {
         "deliverySlotId": "bce5edad-a7e3-4a99-a15d-dc5548e994a3",
         "day": 2,
         "startTime": "13:00:00",
         "endTime": "20:30:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-10"
       },
       {
         "deliverySlotId": "32c16f98-44a4-43f7-bf42-77c558014d41",
         "day": 3,
         "startTime": "13:00:00",
         "endTime": "20:30:00",
-        "orderDaysInAdvance": 0
+        "orderDaysInAdvance": 0,
+        "date": "2015-11-11"
       }
     ],
     "distances": [
