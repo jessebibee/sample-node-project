@@ -16,6 +16,11 @@ const pickupsEngine = {
     closestByDay: function (locations) {
         return pickupsRecommender.byDay(currentPickups, locations);
     }
+
+    // Further enhancement ideas:
+    // Store user location requests to consider expansion spots (can use alongside the Suggest a new pickup feature on website)
+    // Store previous user selected pickup locations to factor into a decision
+    // Most similiar feature (if previous user selected pickup locations are stored) - where do neighbors pickup?
 };
 
 export default pickupsEngine;
