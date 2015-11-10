@@ -1,5 +1,6 @@
 import chai from 'chai';
 import recommender from '../src/pickupsRecommender';
+import Guid from 'guid';
 chai.should();
 
 describe('Pickups recommender', () => {
@@ -33,9 +34,9 @@ describe('Pickups recommender', () => {
 
             const resultPickups = result[0].pickups;
             resultPickups.should.have.length(3);
-            resultPickups[0].should.equal(charlottesville);
-            resultPickups[1].should.equal(bethesda);
-            resultPickups[2].should.equal(baltimore);
+            resultPickups[0].deliveryId.should.equal(charlottesville.deliveryId);
+            resultPickups[1].deliveryId.should.equal(bethesda.deliveryId);
+            resultPickups[2].deliveryId.should.equal(baltimore.deliveryId);
         });
 
         it('orders pickup locations each day by minimum distance from multiple locations', () => {
@@ -48,9 +49,9 @@ describe('Pickups recommender', () => {
 
             const resultPickups = result[0].pickups;
             resultPickups.should.have.length(3);
-            resultPickups[0].should.equal(charlottesville);
-            resultPickups[1].should.equal(baltimore);
-            resultPickups[2].should.equal(bethesda);
+            resultPickups[0].deliveryId.should.equal(charlottesville.deliveryId);
+            resultPickups[1].deliveryId.should.equal(baltimore.deliveryId);
+            resultPickups[2].deliveryId.should.equal(bethesda.deliveryId);
         });
 
         it('only returns a specified number of locations per day', () => {
@@ -70,9 +71,9 @@ describe('Pickups recommender', () => {
     describe('when recommending by pickup location', () => {
 
         it('orders pickup locations', () => {
-            const baltimore = buildPickup('Baltimore', '2015-11-05', baltimoreCoords, 'loc1', 'slot1');
-            const bethesda = buildPickup('Bethesda', '2015-11-05', bethesdaCoords, 'loc2', 'slot2');
-            const charlottesville = buildPickup('Charlottesville', '2015-11-05', charlottesvilleCoords, 'loc3', 'slot3');
+            const baltimore = buildPickup('Baltimore', '2015-11-05', baltimoreCoords);
+            const bethesda = buildPickup('Bethesda', '2015-11-05', bethesdaCoords);
+            const charlottesville = buildPickup('Charlottesville', '2015-11-05', charlottesvilleCoords);
             const pickups = [baltimore, bethesda, charlottesville];
 
             var locations = recommender.byPickupLocation(pickups, [charlottesvilleCoords]);
@@ -84,9 +85,9 @@ describe('Pickups recommender', () => {
         });
 
         it('orders pickup locations by minimum distance from multiple locations', () => {
-            const baltimore = buildPickup('Baltimore', '2015-11-05', baltimoreCoords, 'loc1', 'slot1');
-            const bethesda = buildPickup('Bethesda', '2015-11-05', bethesdaCoords, 'loc2', 'slot2');
-            const charlottesville = buildPickup('Charlottesville', '2015-11-05', charlottesvilleCoords, 'loc3', 'slot3');
+            const baltimore = buildPickup('Baltimore', '2015-11-05', baltimoreCoords);
+            const bethesda = buildPickup('Bethesda', '2015-11-05', bethesdaCoords);
+            const charlottesville = buildPickup('Charlottesville', '2015-11-05', charlottesvilleCoords);
             const pickups = [baltimore, bethesda, charlottesville];
 
             var locations = recommender.byPickupLocation(pickups, [charlottesvilleCoords, justOutsideBaltimoreCoords]);
@@ -98,27 +99,30 @@ describe('Pickups recommender', () => {
         });
 
         it('each pickup location contains all of its available time slots', () => {
-            const baltimoreSlot1 = buildPickup('Baltimore1', '2015-11-05', baltimoreCoords, 'loc1', 'slot1');
-            const baltimoreSlot2 = buildPickup('Baltimore2', '2015-11-06', baltimoreCoords, 'loc1', 'slot2');
+            const deliveryLocationId = Guid.raw();
+            const baltimoreSlot1 = buildPickup('Baltimore1', '2015-11-05', baltimoreCoords, deliveryLocationId);
+            const baltimoreSlot2 = buildPickup('Baltimore2', '2015-11-06', baltimoreCoords, deliveryLocationId);
             const pickups = [baltimoreSlot1, baltimoreSlot2];
 
             var locations = recommender.byPickupLocation(pickups, [baltimoreCoords]);
 
+            console.log(locations);
+
             locations.should.have.length(1);
             locations[0].slots.should.have.length(2);
-            locations[0].slots[0].deliverySlotId.should.equal('slot1');
-            locations[0].slots[1].deliverySlotId.should.equal('slot2');
+            locations[0].slots[0].deliverySlotId.should.equal(baltimoreSlot1.slot.deliverySlotId);
+            locations[0].slots[1].deliverySlotId.should.equal(baltimoreSlot2.slot.deliverySlotId);
         });
     });
 });
 
 
-
-function buildPickup(name, date, coordinates, deliveryLocationId, deliverySlotId) {
+function buildPickup(name, date, coordinates, deliveryLocationId = Guid.raw()) {
     return {
+        deliveryId: Guid.raw(),
         date: date,
         slot: {
-            deliverySlotId: deliverySlotId
+            deliverySlotId: Guid.raw()
         },
         location: {
             deliveryLocationId: deliveryLocationId,
