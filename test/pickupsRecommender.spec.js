@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import chai from 'chai';
 import recommender from '../src/pickupsRecommender';
 import Guid from 'guid';

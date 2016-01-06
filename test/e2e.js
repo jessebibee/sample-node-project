@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import fs from 'fs';
 import chai from 'chai';
 import deliveries from '../data/availableDeliveries.json';
